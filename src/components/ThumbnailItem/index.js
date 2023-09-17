@@ -11,7 +11,7 @@ const ThumbnailItem = props => {
 
   const check = isValid ? 'img3' : ''
   return (
-    <list className="list">
+    <li className="list">
       <button className="btn" type="button">
         <img
           src={thumbnailUrl}
@@ -20,7 +20,7 @@ const ThumbnailItem = props => {
           onClick={onTap}
         />
       </button>
-    </list>
+    </li>
   )
 }
 
