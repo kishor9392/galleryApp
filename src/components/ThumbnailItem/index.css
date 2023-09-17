@@ -1,0 +1,21 @@
+.list {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.img2 {
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.img3 {
+  opacity: 0.5;
+}
